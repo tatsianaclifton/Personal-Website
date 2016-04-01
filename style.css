@@ -1,0 +1,122 @@
+body{
+  max-width: 100%;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-family: Courier New;
+  background-color: #F5F5F5;
+}
+
+.well{
+  background-color: #F5F5F5;
+  border: none;
+}
+
+#portfolio .well{
+  padding: 0 0 0 0;
+}
+
+#portfolio .well > div{ 
+  border-radius: 0px;
+  margin: 0 0 0 0;
+  background-color: #000000;
+  padding-top: 5px;
+}
+
+#portfolio .well .well > h5{ 
+  color: #000000;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#portfolio .well .well > h4, h5{ 
+  color: #000000;
+  text-align: center;
+}
+
+#project .well{
+  padding: 10px 15px 5px 20px;
+}
+
+p, ul{
+  font-weight: normal;
+}
+
+.navbar-brand{
+  font-size: 1.2em;
+}
+
+.home{
+  height: 800px;
+  background: url('https://41.media.tumblr.com/7b107810ca559f6f997162360ae4fc7f/tumblr_o4ek0vQTOQ1vp5bfdo1_1280.jpg') no-repeat center center fixed;
+;
+  background-size: cover;
+  text-align: center;
+}
+
+.intro {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%; 
+  color: #FFFFFF;
+}
+
+.intro > h1{
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.intro > h2{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.social{
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
+
+#about > hr{
+  width: 90%;
+  border: 0; height: 2px;
+  background: #FFFFFF;
+  background-image: linear-gradient(to right, #CCCCCC, #FFFFFF, #CCCCCC);
+}
+
+hr{
+  width: 70%;
+  border: 0; height: 2px;
+  background: #CCCCCC;
+}
+
+.about { 
+    padding-top: 8%;
+}
+
+h3{
+  padding-top: auto;
+  font-weight: bold;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+span, i{
+  color: #000000;
+}
+
+.small{
+  font-size: 0.7em;
+}
+
+.portfolio{
+  background: url('https://40.media.tumblr.com/60d870b27a35b59e10238e9b6ba93c39/tumblr_o4igp9Uv0e1vp5bfdo1_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#portfolio .container > h3{
+  color: #000000;
+  font-weight: 900;
+}
